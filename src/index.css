@@ -1,0 +1,50 @@
+
+body{
+  background-color: #fff;
+}
+
+.card {
+  width: 12%;
+  border: 1px solid grey;
+  margin: 1%;
+  padding: 10px 0;
+  box-shadow: 0px 5px 20px rgb(71, 71,71);
+}
+
+.weather-cards {
+  display: flex;
+  justify-content: center;
+}
+
+.header{
+  margin: 50px;
+}
+
+small{
+  font-size: 12px;
+  color: grey;
+}
+
+.wbox{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.search-form{
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-bar{
+  width: 50%;
+  border: none;
+  padding: 10px;
+}
+
+.search-button{
+  background: lightcoral;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+}
